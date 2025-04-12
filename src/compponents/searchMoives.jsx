@@ -6,7 +6,7 @@ import "./searchMoives.css";
 function SearchMovie({ setMovie }) {
   const [searchTerm, setSearchTerm] = useState("Harry");
   const [error, setError] = useState(false);
-  const API_URl = " http://www.omdbapi.com/";
+  const API_URl = " https://www.omdbapi.com/";
   const API_KEy = "9ae42c37";
 
   let getMovieDetails = async () => {
